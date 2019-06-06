@@ -14,12 +14,13 @@ function whileLoop(num){
   return 'done';
 }
 function doWhileLoop(int){
+   var i = int;
   function incrementVariable() {
-  int = int + 10;
+  i = i + 1;
   return int;
 }
 do {
   console.log("I run once regardless.");
-} while (incrementVariable() < int);
+} while (incrementVariable() < i);
 return int;
 }
