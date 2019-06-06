@@ -16,11 +16,11 @@ function whileLoop(num){
 function doWhileLoop(int){
    var i = 0;
   function incrementVariable() {
-  i = i + 1;
+  i = i + 10;
   return i;
 }
 do {
   console.log("I run once regardless.");
 } while (incrementVariable() < i);
-return i;
+return int;
 }
